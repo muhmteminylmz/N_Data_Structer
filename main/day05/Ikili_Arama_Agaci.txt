@@ -1,0 +1,8 @@
+Buda Ikili arama agaci
+Duzen :
+*Sol alt agac degerleri dugumun degerinden kucuk olmali
+*Sag taraf degerleri dugumun degerinden buyuk olmali
+(sag ve sol cocuk bakimindan dusunulmeli)
+
+
+dolasimlarin sonuclarini yazabiliriz SINAVDA
