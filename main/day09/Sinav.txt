@@ -1,0 +1,29 @@
+Adım adım BFS:
+
+Başlangıç düğümü 0'dır.
+Kuyruğa 0 eklenir ve 0 ziyaret edilmiş olarak işaretlenir.
+Kuyruğun başındaki 0 çıkarılır ve komşuları 1, 2, 3 kuyruğa eklenir.
+0 yazdırılır.
+Kuyruğun başındaki 1 çıkarılır ve komşusu 4 kuyruğa eklenir (çünkü 0 zaten ziyaret edilmiştir).
+1 yazdırılır.
+Kuyruğun başındaki 2 çıkarılır ve komşuları 4, 5, 6 kuyruğa eklenir (0 zaten ziyaret edilmiştir).
+2 yazdırılır.
+Kuyruğun başındaki 3 çıkarılır ve komşuları 6, 7, 8 kuyruğa eklenir (0 zaten ziyaret edilmiştir).
+3 yazdırılır.
+Bu şekilde devam eder ve tüm düğümler genişlik boyunca ziyaret edilir.
+
+Adım adım DFS:
+
+Başlangıç düğümü 0'dır.
+Kuyruğa 0 eklenir ve 0 ziyaret edilmiş olarak işaretlenir.
+Kuyruğun sonundaki 0 çıkarılır ve komşuları 1, 2, 3 kuyruğa eklenir.
+0 yazdırılır.
+Kuyruğun sonundaki 3 çıkarılır ve komşuları 6, 7, 8 kuyruğa eklenir (0 zaten ziyaret edilmiştir).
+3 yazdırılır.
+Kuyruğun sonundaki 8 çıkarılır ve komşuları 7, 9 kuyruğa eklenir (3 zaten ziyaret edilmiştir).
+8 yazdırılır.
+Kuyruğun sonundaki 9 çıkarılır ve komşuları 6, 8 kuyruğa eklenir (8 zaten ziyaret edilmiştir).
+9 yazdırılır.
+Bu şekilde devam eder ve tüm düğümler derinlik boyunca ziyaret edilir.
+
+NOT: DFS Algoritmasi bu sekilde ama set kullanildigindan sira degisebiliyor

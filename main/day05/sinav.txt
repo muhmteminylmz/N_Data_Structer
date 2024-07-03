@@ -1,0 +1,4 @@
+yazdirma yerleri farkli yazma gelene kadar gittigi yere kadar gider
+mesela in order - sol-kok-sag da ilk basta sola gidersin yani d2 ve hep onun soluna gidersin kok geldiginde yazarsin.
+Hep boyle devam eder ve bitirirsin
+

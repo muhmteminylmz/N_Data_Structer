@@ -1,6 +1,6 @@
 """
-Ust >= Alt Dugum -> max Heap
-Ust <= ALT Dugum -> min Heap
+Ust Dugum >= Alt Dugum -> max Heap
+Ust Dugum <= ALT Dugum -> min Heap
 heapify(): Listeden heap agaci olusturma methodu
 heappush(): Tanimlanmis olan bir heap agacina eleman eklemek icin
 heappop(): Tanimlanmis olan bir heap agacindan en kucuk degeri bulur ve cikarir.
